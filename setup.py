@@ -47,7 +47,7 @@ EXTRAS_DEPENDENCIES: dict[str, list[str]] = {
 
 setup(
     name="Fleming",
-    url="https://github.com/Flemming/",
+    url="https://github.com/sede-open/Fleming",
     classifiers=[
         "License :: OSI Approved :: Apache Software License",
         "Programming Language :: Python :: 3",
@@ -56,8 +56,8 @@ setup(
         "Programming Language :: Python :: 3.11",
     ],
     project_urls={
-        "Issue Tracker": "https://github.com//issues",
-        "Source": "https://github.com//",
+        "Issue Tracker": "https://github.com/sede-open/Fleming/issues",
+        "Source": "https://github.com/sede-open/Fleming",
     },
     version="0.0.1",
     package_dir={"": "src"},
