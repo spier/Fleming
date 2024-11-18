@@ -125,8 +125,7 @@ nav:
       - ModelServe: code-reference/ModelServe.md
       - ModelQuery: code-reference/ModelQuery.md
   - Releases: releases/fleming.md
-  - Blog:
-      - Innersource Community: blog/posts/innersouce-community.md
+  - Blog: blog/index.md
   - Contact Us:
       - Contact via Email: contact/email.md
       - Reach out on Github: contact/github.md
