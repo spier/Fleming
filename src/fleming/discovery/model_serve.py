@@ -63,7 +63,7 @@ class ModelServe:
     model_serve = ModelServe(endpoint_name, model_name, workload_type, workload_size, scale_to_zero, API_ROOT, API_TOKEN)
     model_serve.deploy_endpoint()
 
-   ```
+    ```
 
     Parameters:
         endpoint_name (str): The name of the model serving endpoint.
@@ -73,7 +73,6 @@ class ModelServe:
         scale_to_zero (bool): Whether to scale the compute to zero when not in use.
         API_ROOT (str): The API root of the Databricks workspace.
         API_TOKEN (str): The API token of the Databricks workspace.
-
     """
 
     spark: SparkSession
@@ -150,9 +149,10 @@ class ModelServe:
                         {
                             "name": self.model_name,
                             "entity_name": self.model_name,
-                            "entity_version": max(MlflowClient()
-                            .get_latest_versions(self.model_name), key=lambda v: v.version)
-                            .version,                            
+                            "entity_version": max(
+                                MlflowClient().get_latest_versions(self.model_name),
+                                key=lambda v: v.version,
+                            ).version,
                             "workload_type": self.workload_type,
                             "workload_size": self.workload_size,
                             "scale_to_zero_enabled": self.scale_to_zero,

@@ -81,7 +81,6 @@ class CorpusTextCreation:
 
         corpus = [row["ConcatColumns"] for row in df.collect()]
 
-
         return corpus
 
     def write_corpus_to_file(self, corpus) -> None:

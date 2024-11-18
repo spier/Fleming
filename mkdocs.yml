@@ -124,8 +124,7 @@ nav:
       - ModelTrainRegister: code-reference/ModelTrainRegister.md
       - ModelServe: code-reference/ModelServe.md
       - ModelQuery: code-reference/ModelQuery.md
-  - Releases:
-      - core: releases/fleming.md
+  - Releases: releases/fleming.md
   - Blog:
       - Innersource Community: blog/posts/innersouce-community.md
   - Contact Us:

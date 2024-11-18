@@ -2,7 +2,7 @@
 
 1) To get started with developing for this project, clone the repository. 
 ```
-    git clone https://github.com/sede-x/Flemming.git.
+    git clone https://github.com/sede-x/Flemming.git
 ```
 2) Open the respository in VS Code, Visual Studio or your preferered code editor.
 

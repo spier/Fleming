@@ -5,5 +5,3 @@ Your communication helps us improve and provide better services, so don't hesita
 Emails:
 
 * christian.defeo@shell.com
-* amber.rigg@shell.com
-* benedict.butcher@shell.com
