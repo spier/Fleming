@@ -6,7 +6,7 @@ After the corpus.txt file has been created it is now possible to load the corpus
 
 Please find an example below.
 
-For more information about options within the Class please follow the documentation under the code-reference section.
+For more information about options within the Class please follow the documentation under the [code-reference](../code-reference/ModelTrainRegister.md) section.
 
 # Example
 

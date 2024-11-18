@@ -7,7 +7,7 @@ Once you have your model serving on a databricks endpoint it is then possible to
 
 Please find an example below.
 
-For more information about options within the Class please follow the documentation under the code-reference section.
+For more information about options within the Class please follow the documentation under the [code-reference](../code-reference/ModelQuery.md) section.
 
 # Example
 

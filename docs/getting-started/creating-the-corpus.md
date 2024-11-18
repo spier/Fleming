@@ -7,7 +7,7 @@ The first step is to create a corpus.txt file, this includes all the valuse you 
 
 Please find an example below.
 
-For more information about options within the Class please follow the documentation under the code-reference section.
+For more information about options within the Class please follow the documentation under the [code-reference](../code-reference/CorpusTextCreation.md) section.
 
 # Example
 

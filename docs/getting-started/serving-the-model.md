@@ -6,7 +6,7 @@ After the model has been registered it is now possible to serve the model with t
 
 Please find an example below.
 
-For more information about options within the Class please follow the documentation under the code-reference section.
+For more information about options within the Class please follow the documentation under the [code-reference](../code-reference/ModelServe.md) section.
 
 ```python  
 
