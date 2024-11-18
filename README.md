@@ -1,3 +1,5 @@
+
+![Logo Discovery](docs/images/logo.png) 
 # Fleming
 
 A proposed open-source project of the "brain" of the AI Discovery Tool. Including techincal scripts to build, register, serve and query models on databricks which use Semantic Search. These models can be run on cpu and not gpu providing signiifcant cost reductions.
@@ -8,7 +10,7 @@ By combining data ingestion from GitHub with Databricks' model training and serv
 
 The serving endpont designed to process and analyze large volumes of data, enabling efficient data discovery and insights.
 
-![Code Discovery](docs/images/discovery.jpeg)
+![Code Discovery](docs/images/glass_discovery.png)
 
 
 ## Corpus Creation

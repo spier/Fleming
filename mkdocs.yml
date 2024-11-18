@@ -1,0 +1,135 @@
+# Project information
+site_name: Project Fleming - The Brain
+site_url:  https://projectfleming.tech
+site_author: Innersource Enablement Team
+site_description: >-
+    This is the documentation for the core brain of the project Fleming for the Innersource initiative.
+    It contains information on how to use the project, how to contribute to it,
+    and how to deploy it.
+# Repository
+repo_name: sede-open/fleming
+repo_url: https://github.com/sede-open/fleming/
+edit_uri: ""
+
+docs_dir: docs
+
+extra_css:
+  - stylesheets/extra.css
+
+theme:
+  name: material
+  custom_dir: docs/stylesheets
+  font:
+    text: Open Sans
+    code: Open Sans Mono
+  logo: assets/logo_white.png
+  favicon: assets/favicon.ico
+  features:
+    - navigation.footer
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    - content.tabs.link
+    - content.tooltips
+    # - navigation.expand
+    - navigation.indexes
+    - navigation.instant
+    # - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    # - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    - header.autohide
+  palette:
+
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: custom
+      accent: custom
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: custom
+      accent: custom
+
+plugins:
+  - search
+  - autorefs
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            members_order: source
+  - tags
+  - blog:
+      post_excerpt: required
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets:
+      base_path: 
+        - docs
+        - fleming/discovery
+      check_paths: true
+      url_download: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - md_in_html
+  - meta
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra:
+  social:
+    - icon: simple/github
+      link: https://github.com/sede-open/Fleming
+
+copyright: Copyright © [2024] Shell Global Solutions International B.V. All Rights Reserved.
+
+nav:
+  - Home: index.md
+  - Getting started:
+      - Installation: getting-started/installation.md
+      - Creating the Corpus: getting-started/creating-the-corpus.md
+      - Creating the Model: getting-started/creating-the-model.md
+      - Serving the Model: getting-started/serving-the-model.md
+      - Calling the Endpoint: getting-started/calling-the-endpoint.md
+  - Code Reference:
+      - CorpusTextCreation: code-reference/CorpusTextCreation.md
+      - ModelTrainRegister: code-reference/ModelTrainRegister.md
+      - ModelServe: code-reference/ModelServe.md
+      - ModelQuery: code-reference/ModelQuery.md
+  - Releases:
+      - core: releases/fleming.md
+  - Blog:
+      - Innersource Community: blog/posts/innersouce-community.md
+  - Contact Us:
+      - Contact via Email: contact/email.md
+      - Reach out on Github: contact/github.md
+
+      

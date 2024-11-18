@@ -20,13 +20,13 @@ from pyspark.sql import SparkSession
 
 class ModelServe:
     """
-    This class creates a model serving endpoint on databricks.
+    A class which allows for creating a model serving endpoint on databricks.
 
-        Example
+    Example:
     --------
     ```python
 
-    from flemingfleming.discovery.corpus_creation import CorpusCreation
+    from fleming.discovery.corpus_creation import CorpusCreation
     from pyspark.sql import SparkSession
 
     # Not required if using Databricks
@@ -63,16 +63,16 @@ class ModelServe:
     model_serve = ModelServe(endpoint_name, model_name, workload_type, workload_size, scale_to_zero, API_ROOT, API_TOKEN)
     model_serve.deploy_endpoint()
 
-    ```
+   ```
 
     Parameters:
-    endpoint_name (str): The name of the model serving endpoint.
-    model_name (str): The name of the model to be served.
-    workload_type (str): The type of compute to be used for the endpoint.
-    workload_size (str): The scale-out size of the compute.
-    scale_to_zero (bool): Whether to scale the compute to zero when not in use.
-    API_ROOT (str): The API root of the Databricks workspace.
-    API_TOKEN (str): The API token of the Databricks workspace.
+        endpoint_name (str): The name of the model serving endpoint.
+        model_name (str): The name of the model to be served.
+        workload_type (str): The type of compute to be used for the endpoint.
+        workload_size (str): The scale-out size of the compute.
+        scale_to_zero (bool): Whether to scale the compute to zero when not in use.
+        API_ROOT (str): The API root of the Databricks workspace.
+        API_TOKEN (str): The API token of the Databricks workspace.
 
     """
 
