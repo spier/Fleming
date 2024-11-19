@@ -45,7 +45,6 @@ theme:
     - toc.follow
     - header.autohide
   palette:
-  
     # Light Mode
     - scheme: default
       toggle:
@@ -53,7 +52,6 @@ theme:
         name: Light mode
       primary: custom
       accent: custom
-      
     # Dark Mode
     - scheme: slate
       toggle:
