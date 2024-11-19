@@ -34,14 +34,15 @@ Specific thanks go to the following individuals:
 * Michelle Bhaskaran
 * Herman Kruis
 * Niranjan Girhe
-* Warren Harding
+* Neethi Mary Regi
+* Namitha Raveendranathan.
  
 **Loughborough University**
  
 * Professor Jenny Harding
 * Dr Diana Segura-Velandia
  
-We also could not have achieved this without management support from Bryce Bartmann, Dan Jeavons, Warren Harding, and Karina Fernandez.
+We also could not have achieved this without management support from Bryce Bartmann, Dan Jeavons, Warren Harding, Adam Jordan and Karina Fernandez.
  
 We encourage all colleagues and potential collaborators interested in Inner Source and Open Source to explore the tool. We welcome your contributions as we continue its development. We also look forward to unexpected insights and new features that others may add.
  
