@@ -8,8 +8,7 @@ By combining data ingestion from GitHub with Databricks' model training and serv
 
 The serving endpont designed to process and analyze large volumes of data, enabling efficient data discovery and insights.
 
-![Code Discovery](docs/images/discovery.jpeg)
-
+![Logo Discovery](docs/images/logo.png) 
 
 ## Corpus Creation
 

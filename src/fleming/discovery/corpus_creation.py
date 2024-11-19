@@ -48,8 +48,8 @@ class CorpusTextCreation:
 
     Parameters:
         spark (SparkSession): Spark Session
-        corpus_df(df): Source dataframe of the corpus
-        corpus_file_path(str): File path to write the corpus
+        corpus_df (df): Source dataframe of the corpus
+        corpus_file_path (str): File path to write the corpus
 
     """
 
@@ -80,7 +80,6 @@ class CorpusTextCreation:
         )
 
         corpus = [row["ConcatColumns"] for row in df.collect()]
-
 
         return corpus
 

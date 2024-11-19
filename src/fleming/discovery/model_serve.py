@@ -20,13 +20,13 @@ from pyspark.sql import SparkSession
 
 class ModelServe:
     """
-    This class creates a model serving endpoint on databricks.
+    A class which allows for creating a model serving endpoint on databricks.
 
-        Example
+    Example:
     --------
     ```python
 
-    from flemingfleming.discovery.corpus_creation import CorpusCreation
+    from fleming.discovery.corpus_creation import CorpusCreation
     from pyspark.sql import SparkSession
 
     # Not required if using Databricks
@@ -66,14 +66,13 @@ class ModelServe:
     ```
 
     Parameters:
-    endpoint_name (str): The name of the model serving endpoint.
-    model_name (str): The name of the model to be served.
-    workload_type (str): The type of compute to be used for the endpoint.
-    workload_size (str): The scale-out size of the compute.
-    scale_to_zero (bool): Whether to scale the compute to zero when not in use.
-    API_ROOT (str): The API root of the Databricks workspace.
-    API_TOKEN (str): The API token of the Databricks workspace.
-
+        endpoint_name (str): The name of the model serving endpoint.
+        model_name (str): The name of the model to be served.
+        workload_type (str): The type of compute to be used for the endpoint.
+        workload_size (str): The scale-out size of the compute.
+        scale_to_zero (bool): Whether to scale the compute to zero when not in use.
+        API_ROOT (str): The API root of the Databricks workspace.
+        API_TOKEN (str): The API token of the Databricks workspace.
     """
 
     spark: SparkSession
@@ -150,9 +149,10 @@ class ModelServe:
                         {
                             "name": self.model_name,
                             "entity_name": self.model_name,
-                            "entity_version": max(MlflowClient()
-                            .get_latest_versions(self.model_name), key=lambda v: v.version)
-                            .version,                            
+                            "entity_version": max(
+                                MlflowClient().get_latest_versions(self.model_name),
+                                key=lambda v: v.version,
+                            ).version,
                             "workload_type": self.workload_type,
                             "workload_size": self.workload_size,
                             "scale_to_zero_enabled": self.scale_to_zero,
