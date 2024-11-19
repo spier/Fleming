@@ -48,7 +48,7 @@ class ModelQuery:
 
     Parameters:
         url (str): The URL of the model serving endpoint.
-        token(str): The authorization token for the model serving endpoint.
+        token (str): The authorization token for the model serving endpoint.
     """
 
     url: str

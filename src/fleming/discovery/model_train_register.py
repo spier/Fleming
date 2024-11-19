@@ -167,14 +167,10 @@ class ModelTrainRegister:
 
     Parameters:
     -----------
-    model_directory : str
-        The directory to save the trained model.
-    corpus_file : str
-        The file containing the corpus of sentences.
-    corpus_embedding_file : str
-        The file to save the embeddings of the corpus.
-    semantic_search_model : str
-        The pre-trained model to use for semantic search.
+    model_directory (str): The directory to save the trained model.
+    corpus_file (str): The file containing the corpus of sentences.
+    corpus_embedding_file (str): The file to save the embeddings of the corpus.
+    semantic_search_model (str): The pre-trained model to use for semantic search.
     """
 
     spark: SparkSession
