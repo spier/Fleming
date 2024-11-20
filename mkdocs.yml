@@ -117,10 +117,14 @@ nav:
       - Serving the Model: getting-started/serving-the-model.md
       - Calling the Endpoint: getting-started/calling-the-endpoint.md
   - Code Reference:
-      - CorpusTextCreation: code-reference/CorpusTextCreation.md
-      - ModelTrainRegister: code-reference/ModelTrainRegister.md
-      - ModelServe: code-reference/ModelServe.md
-      - ModelQuery: code-reference/ModelQuery.md
+      - Discovery:
+          - CorpusTextCreation: code-reference/CorpusTextCreation.md
+          - ModelTrainRegister: code-reference/ModelTrainRegister.md
+          - ModelServe: code-reference/ModelServe.md
+          - ModelQuery: code-reference/ModelQuery.md
+      - Summary: 
+          - GPT-4oMini: code-reference/4o-MiniSummary.md
+          - RepoContentsTokenisation: code-reference/RepoContentsTokenisation.md
   - Releases: releases/fleming.md
   - Blog: blog/index.md
   - Contact Us:
