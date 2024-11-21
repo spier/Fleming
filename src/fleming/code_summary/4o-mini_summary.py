@@ -1,6 +1,5 @@
 import logging
 import requests
-import json
 from pyspark.sql import DataFrame, SparkSession
 
 class OpenAIClient:
